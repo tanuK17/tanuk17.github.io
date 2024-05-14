@@ -293,6 +293,27 @@ footer {
   object-fit: cover; /* This will cover the area without stretching the images */
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Adds background color to make it visible on all images */
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%; /* Adjust the clickable area size as needed */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
