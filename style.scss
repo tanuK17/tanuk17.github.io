@@ -287,6 +287,14 @@ footer {
   text-align: center;
 }
 
+.carousel-item img {
+  width: 100%; /* Ensure all images are the same width */
+  height: 500px; /* Adjust height as needed */
+  object-fit: cover; /* This will cover the area without stretching the images */
+}
+
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
