@@ -306,14 +306,15 @@ footer {
 }
 
 .carousel-caption {
-  position: relative; /* Change to relative to adjust based on the container */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  position: relative; // Ensures it is positioned relative to its normal position
+  background-color: rgba(0, 0, 0, 0.5); // Semi-transparent background
   color: white;
-  width: 100%; /* Ensures it matches the image width */
+  width: 100%; // Ensures it matches the image width
   text-align: center;
   padding: 10px;
-  transform: translateY(100%); /* Moves the caption below the image */
+  top: 100%; // Moves the caption right below the image
 }
+
 
 .site-avatar img {
   width: 70px; // Fixed width for avatar
