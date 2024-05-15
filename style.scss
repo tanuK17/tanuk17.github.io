@@ -296,6 +296,12 @@ footer {
   object-fit: cover; /* This will cover the area without stretching the images */
 }
 
+.carousel-item {
+  position: relative;
+  width: 100%; // Ensures the item fills its container
+}
+
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: black; /* Adds background color to make it visible on all images */
@@ -306,14 +312,15 @@ footer {
 }
 
 .carousel-caption {
-  position: relative; // Ensures it is positioned relative to its normal position
-  background-color: rgba(0, 0, 0, 0.5); // Semi-transparent background
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  width: 100%; // Ensures it matches the image width
+  width: 100%;
   text-align: center;
   padding: 10px;
-  top: 100%; // Moves the caption right below the image
+  bottom: 0; // Position it at the bottom of the .carousel-item
 }
+
 
 
 .site-avatar img {
