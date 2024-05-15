@@ -315,6 +315,12 @@ footer {
   transform: translateY(100%); /* Moves the caption below the image */
 }
 
+.site-avatar img {
+  width: 70px; // Fixed width for avatar
+  height: 70px; // Fixed height for avatar
+  border-radius: 5px; // Keeps your rounded corners
+}
+
 
 
 
