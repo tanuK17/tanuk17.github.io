@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 600px;
   padding: 0 10px;
   width: 100%;
 }
@@ -313,12 +313,9 @@ footer {
 }
 
 .header-footer-container {
-  max-width: 600px;
-  margin: 0 auto; // This should center the container within its parent
+  max-width: 800px;
+  margin: 0 auto; // Centers the container
 }
-
-
-
 
 
 
