@@ -317,6 +317,12 @@ footer {
   margin: 0 auto; // This should center the container within its parent
 }
 
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto; // Center the footer within any larger container
+  width: 100%; // Ensure it uses up to its max width
+}
+
 
 
 
