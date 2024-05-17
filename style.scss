@@ -306,7 +306,7 @@ footer {
 
 .carousel-captions {
     position: absolute; /* Position captions absolutely within a relative container */
-    bottom: 100px; /* Adjust this value to move captions below or above the carousel */
+    bottom: 500px; /* Adjust this value to move captions below or above the carousel */
     width: 100%;
     text-align: center;
     z-index: 10; /* Ensures it's above the carousel images */
