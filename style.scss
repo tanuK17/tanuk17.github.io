@@ -305,17 +305,20 @@ footer {
 }
 
 .carousel-captions {
-    position: absolute; /* Position captions absolutely within a relative container */
-    bottom: -75px; /* Adjust this value to move captions below or above the carousel */
-    width: 1200px;
-    text-align: center;
-    z-index: 10; /* Ensures it's above the carousel images */
+    position: absolute; /* Keeps the position relative to the #projectSlideshow */
+    bottom: -75px; /* Moves the captions below the carousel */
+    left: 0; /* Aligns captions to the left edge of the carousel */
+    right: 0; /* Aligns captions to the right edge of the carousel */
+    width: 100%; /* Ensures the captions stretch across the width of the carousel */
+    text-align: center; /* Keeps text centered */
+    z-index: 10; /* Ensures the captions are above the carousel images */
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Better visibility against possible light images */
+    background-color: rgba(0, 0, 0, 0.5); /* Improves visibility against potential light images */
     color: white;
     padding: 10px;
+    margin: auto; /* Centers the caption if it's narrower than the carousel */
 }
 
 /* Ensure the carousel itself has a relative positioning if not already set */
