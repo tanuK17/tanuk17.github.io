@@ -316,6 +316,8 @@ footer {
 .carousel-captions {
   display: block;
   width: 100%;
+  text-align: center;
+  margin-top: 20px; // Adjust this value based on your layout needs
 }
 
 .carousel-item.active .carousel-caption {
