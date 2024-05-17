@@ -370,6 +370,30 @@ footer {
   margin: auto;
 }
 
+/* Ensure all main content areas are restricted to 800px width */
+#main, .posts, article.page, article.post {
+  max-width: 800px; /* This enforces the 800px width */
+  margin: auto; /* Centers the content */
+  padding: 0 15px; /* Provides padding inside the content area */
+}
+
+/* Additional rules to ensure no spillover */
+.wrapper-masthead, .wrapper-footer {
+  width: 100%; /* This ensures they take full width of the viewport but respect inner max-width */
+  overflow: hidden; /* Prevents any content from spilling out */
+}
+
+.header-footer-container, .container {
+  max-width: 800px; /* Enforces max-width on header and footer */
+  margin: 0 auto; /* Center alignment */
+}
+
+/* If there are specific pages or sections not adhering, explicitly set their width */
+.page-specific-class { /* Replace '.page-specific-class' with the actual class or ID used for those sections */
+  max-width: 800px;
+  margin: auto;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
