@@ -339,7 +339,33 @@ footer {
   margin: 0 auto; // Centers the container
 }
 
+// Base container rules
+.container, .header-footer-container, #main, .wrapper-masthead, .wrapper-footer {
+  max-width: 800px; // Set all containers to 800px width
+  margin: auto; // Center-align the containers
+}
 
+// Header and footer specific styling
+.header-footer-container {
+  padding: 0 15px; // Add padding if needed, adjust according to your design
+}
+
+// Main content area styling
+#main {
+  padding: 0 15px; // Consistent padding with header and footer
+}
+
+// Masthead and footer wrapper adjustments
+.wrapper-masthead, .wrapper-footer {
+  width: 100%; // Ensures it takes the full width of the viewport
+  overflow: hidden; // Prevents any spillover beyond the width
+}
+
+// Ensure elements within these containers also respect the max-width
+.masthead, footer, .posts, article.page, article.post {
+  max-width: 800px;
+  margin: auto;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
