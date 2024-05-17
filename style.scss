@@ -304,19 +304,31 @@ footer {
   width: 5%; /* Adjust the clickable area size as needed */
 }
 
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); // Ensures readability
-  color: white;
-  padding: 10px;
-  display: none; // Hide by default and will be shown via JavaScript
+.carousel-captions {
+    position: absolute; /* Position captions absolutely within a relative container */
+    bottom: 100px; /* Adjust this value to move captions below or above the carousel */
+    width: 100%;
+    text-align: center;
+    z-index: 10; /* Ensures it's above the carousel images */
 }
 
-.carousel-captions {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin-top: 20px; // Adjust this value based on your layout needs
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Better visibility against possible light images */
+    color: white;
+    padding: 10px;
 }
+
+/* Ensure the carousel itself has a relative positioning if not already set */
+#projectSlideshow {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .carousel-captions {
+        bottom: 50px; /* Adjust for smaller screens */
+    }
+}
+
 
 .carousel-item.active .carousel-caption {
   display: block; /* Only display the caption for the active item */
