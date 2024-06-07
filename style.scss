@@ -434,6 +434,13 @@ article.post {
   margin: 0 auto; // Center alignment
 }
 
+.carousel-caption {
+  display: none;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
