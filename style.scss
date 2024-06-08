@@ -440,8 +440,10 @@ article.post {
   background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 10px;
-  position: relative; /* Relative position to avoid overlap issues */
-  top: 0; /* Positions the caption at the top inside the carousel item */
+  position: absolute; /* Absolute positioning to place it correctly */
+  top: 0; /* Position the caption at the top of the carousel item */
+  width: 100%; /* Ensure it spans the entire width of the carousel */
+  z-index: 10; /* Ensure it is above the image */
 }
 
 
