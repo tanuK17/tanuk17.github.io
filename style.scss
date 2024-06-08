@@ -25,9 +25,30 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 800px;
   padding: 0 10px;
   width: 100%;
+}
+.site-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-footer-container, .masthead, footer, .posts, article.page, article.post {
+  max-width: 800px;
+  margin: auto;
+}
+
+#main, .posts, article.page, article.post {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.wrapper-masthead, .wrapper-footer {
+  width: 100%;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
