@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 <html>
+  <div class="w3-content" style="max-width:800px">
 <title>Tanush Kaushik</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,4 +20,5 @@ Hi there, my name is Tanush Kaushik and I am a rising junior Human-Centered Data
 <p> Contact me on twitter @tanush017 </p>
 <p> Connect with me on LinkedIn @tanush-kaushik</p>
 </body>
+  </div>
 </html>
