@@ -345,7 +345,7 @@ footer {
 // Base container rules
 .container, .header-footer-container, #main, .wrapper-masthead, .wrapper-footer {
   max-width: 800px; // Set all containers to 800px width
-  margin: center; // Center-align the containers
+  margin: auto; // Center-align the containers
 }
 
 // Header and footer specific styling
