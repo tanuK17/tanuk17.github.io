@@ -433,6 +433,12 @@ article.post {
   margin: 0 auto; // Center alignment
 }
 
+// Social media icons styling to ensure they fit well in the footer
+.svg-icon {
+  // Add specific styles if necessary, such as margins, size adjustments
+  margin: 0 5px; // Example: Add horizontal spacing between icons
+}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
