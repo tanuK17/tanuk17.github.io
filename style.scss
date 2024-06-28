@@ -276,12 +276,11 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  max-width: 800px; // Ensures the footer does not exceed 800px
+  margin: auto; // Center the footer
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-  max-width: 800px;
-  margin: auto;
 }
 
 footer {
