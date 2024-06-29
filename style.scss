@@ -304,7 +304,7 @@ footer {
 }
 
 .carousel-captions {
-    position: absolute; /* Keeps the position relative to the #projectSlideshow */
+    position: relative; /* Keeps the position relative to the #projectSlideshow */
     bottom: -75px; /* Moves the captions below the carousel */
     left: 0; /* Aligns captions to the left edge of the carousel */
     right: 0; /* Aligns captions to the right edge of the carousel */
