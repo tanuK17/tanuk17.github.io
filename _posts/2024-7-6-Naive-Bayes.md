@@ -3,7 +3,7 @@ layout: post
 title: Spam Detection Model
 ---
 
-<div style="width: 100%">
+<div style="position: relative; width: 800px">
 Used a Naïve Bayes classifier to develop a spam detection model that categorizes SMS
 messages into spam and non-spam with 98.5% accuracy; model was trained on a dataset of 5,000+ messages.
 
